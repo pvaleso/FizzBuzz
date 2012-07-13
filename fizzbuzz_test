@@ -25,6 +25,18 @@ describe Fizzbuzz do
 		@fizzbuzz.numero.should=="Fizz"
   end
 
+    context "Avanzar 4 pasos" do
+  it "Avanzar 4 pasos" do  	    
+		@fizzbuzz = fizzbuzz.new(4)
+		@fizzbuzz.numero.should==4
+  end
+
+
+    context "Avanzar 5 pasos" do
+  it "Avanzar 5 pasos" do  	    
+		@fizzbuzz = fizzbuzz.new(5)
+		@fizzbuzz.numero.should=="Buzz"
+  end
 
 
 
