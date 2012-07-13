@@ -10,6 +10,7 @@ describe Fizzbuzz do
  context "Ingreso un Numero" do
   it "Imprime numero " do  	    
 		@fizzbuzz = fizzbuzz.new(1)
+		@fizzbuzz.numero.should==1
   end
 
 
