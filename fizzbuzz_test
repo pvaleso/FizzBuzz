@@ -7,10 +7,22 @@ describe Fizzbuzz do
   @fizzbuzz = Fizzbuzz.new
  end
 
- context "Ingreso un Numero" do
-  it "Imprime numero " do  	    
+ context "Avanzar un paso" do
+  it "Avanzar un paso" do  	    
 		@fizzbuzz = fizzbuzz.new(1)
 		@fizzbuzz.numero.should==1
+  end
+
+  context "Avanzar 2 pasos" do
+  it "Avanzar 2 pasos" do  	    
+		@fizzbuzz = fizzbuzz.new(2)
+		@fizzbuzz.numero.should==2
+  end
+
+  context "Avanzar 3 pasos" do
+  it "Avanzar 3 pasos" do  	    
+		@fizzbuzz = fizzbuzz.new(3)
+		@fizzbuzz.numero.should=="Fizz"
   end
 
 
