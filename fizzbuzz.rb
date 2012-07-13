@@ -3,16 +3,14 @@ class FizzBuzz
 
   def numero
   	
-    if @numero%15 ==0
+    if @numero%5 == 0 and @numero%3 ==0
   		"FizzBuzz"
-  	end
-
-  	if @numero%3 ==0
+  	elsif @numero%3 ==0 
   		"Fizz"
-  	end
-
-  	if @numero%5 ==0
+  	elsif @numero%5 ==0
   		"Buzz"
+  	else
+  		@numero
   	end
 
   	@numero
