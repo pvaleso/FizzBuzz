@@ -1,0 +1,26 @@
+require "./fizzbuzz.rb"
+
+
+describe Fizzbuzz do
+
+ before(:each) do
+  @fizzbuzz = Fizzbuzz.new
+ end
+
+ context "Ingreso un Numero" do
+  it "Imprime numero " do  	    
+		@fizzbuzz = fizzbuzz.new(1)
+  end
+
+
+
+
+ #context "CREAR NUMEROS" do
+  #it "un fizzbuzz coloca Fizz si es multiplo de 3" do
+ 	#	(@fizzbuzz.posicion%3==0)+@fizzbuzz.numero.should =="Fizz"
+	#	(@fizzbuzz.numero%5==0).should =="Buzz"
+  #end
+ 
+ #end
+
+end
